@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hyj/meanshift/meanshift.cpp
+opencv2/core/core.hpp
+/home/hyj/meanshift/opencv2/core/core.hpp
+opencv2/imgproc/imgproc.hpp
+/home/hyj/meanshift/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/hyj/meanshift/opencv2/highgui/highgui.hpp
+iostream
+-
+math.h
+-
+stdio.h
+-
+
